@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <main>
       <Title>Hello PMBA 2025!</Title>
-      <h1>Stay Tuned!</h1>
+      <h1>Hello PMBA 2025!</h1>
       <Counter />
       <p>
         Visit{" "}
