@@ -1,6 +1,5 @@
 [build]
-  command = "solid-start build"
-  functions = "netlify/functions"
+  command = "npm run build"
   publish = "netlify"
 
   ## more info on configuring this file: https://www.netlify.com/docs/netlify-toml-reference/
