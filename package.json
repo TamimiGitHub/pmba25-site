@@ -16,7 +16,7 @@
     "gatsby-plugin-react-helmet": "^5",
     "react": "latest",
     "react-dom": "latest",
-    "react-helmet": "latest"
+    "react-helmet": "^6.1.0"
   },
   "scripts": {
     "develop": "gatsby develop",
