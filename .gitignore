@@ -24,4 +24,4 @@ gitignore
 Thumbs.db
 build
 .cache
-public
+public/*
