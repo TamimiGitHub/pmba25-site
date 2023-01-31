@@ -84,7 +84,7 @@ export default function Album() {
                         component="img"
                         sx={{
                           // 16:9
-                          pt: '56.25%',
+                          pt: '50%',
                         }}
                         image = {images[candidate]}
                         alt={candidate}
@@ -93,8 +93,10 @@ export default function Album() {
                         <Typography gutterBottom variant="h5" component="h2">
                           {candidate}
                         </Typography>
-                        <Typography>
-                          "{tagLines[candidate]}"
+                        <Typography component='div'>
+                          <Box component="span"  sx={{ fontStyle: 'italic' }}>
+                            {tagLines[candidate]}
+                          </Box>
                         </Typography>
                       </CardContent>
                     </Card>
