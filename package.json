@@ -1,28 +1,27 @@
 {
-  "name": "react-coming-soon-page",
-  "version": "1.0.0",
-  "description": "React site under contruction page to showcase countdown timer and opt-in form components.",
-  "keywords": [],
-  "main": "src/index.js",
+  "name": "gatsby",
+  "version": "5.0.0",
+  "private": true,
+  "browserslist": [
+    ">0.25%",
+    "not dead"
+  ],
   "dependencies": {
-    "moment": "2.29.1",
-    "react": "16.8.6",
-    "react-dom": "16.8.6",
-    "react-scripts": "3.0.1"
-  },
-  "devDependencies": {
-    "typescript": "3.3.3"
+    "@emotion/react": "^11.10.5",
+    "@emotion/server": "latest",
+    "@emotion/styled": "^11.10.5",
+    "@mui/icons-material": "^5.11.0",
+    "@mui/material": "^5.11.6",
+    "gatsby": "latest",
+    "gatsby-plugin-react-helmet": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "react-helmet": "latest"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
-  },
-  "browserslist": [
-    ">0.2%",
-    "not dead",
-    "not ie <= 11",
-    "not op_mini all"
-  ]
+    "develop": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "post-update": "echo \"codesandbox preview only, need an update\" && yarn upgrade --latest"
+  }
 }
