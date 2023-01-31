@@ -8,6 +8,7 @@ import Typography from '@mui/material/Typography';
 import Container from '@mui/material/Container';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 import Zoey from '../images/zoey.jpg';
+import Angus from '../images/angus.jpg';
 
 const positions = ["VP External", "VP Events", "VP Internal", "VP Finance", "President"]
 const candidates = {
@@ -18,7 +19,7 @@ const candidates = {
   "President": ["Tamimi Ahmad", "Fortune Umeugo", "Kiana Pomponio"]
 }
 const images = {
-  "Angus Fudge": "https://media.licdn.com/dms/image/D5603AQFJyHSC8Nf06w/profile-displayphoto-shrink_400_400/0/1665343232172?e=1680739200&v=beta&t=FRDPUd4DweVmQKEbAPIRsuIGdPwJ1xa3xFt7us_RRf0",
+  "Angus Fudge": Angus,
   "Meghan Smith": "https://media.licdn.com/dms/image/D5603AQHklrUb2n6_Dg/profile-displayphoto-shrink_400_400/0/1674960750420?e=1680739200&v=beta&t=B9I2btwB9BwZ0nrrpLtsd2aQBIpsKiMQ1K83UI65iKA",
   "Melissa Duff": "https://static.vecteezy.com/system/resources/previews/009/749/643/original/woman-profile-mascot-illustration-female-avatar-character-icon-cartoon-girl-head-face-business-user-logo-free-vector.jpg",
   "Sophia Faria": "https://media.licdn.com/dms/image/C5603AQGktxlskzpVZw/profile-displayphoto-shrink_800_800/0/1658010729624?e=1680739200&v=beta&t=7Vv2qIiOZJlGaByjY-9eMFmYtrwKEpzMgiIYDTnLZGs",
@@ -32,7 +33,7 @@ const images = {
   "Kiana Pomponio": "https://media.licdn.com/dms/image/C4E03AQE1XTtXfYAmgg/profile-displayphoto-shrink_800_800/0/1591732331211?e=1680739200&v=beta&t=bVeXpptDV2NI_sWxdijkoZbGVOGaalDbnWRH9BlwEKA"
 }
 const tagLines = {
-  "Angus Fudge": "",
+  "Angus Fudge": "Listening to you, to make your voice heard and deliver the support you need to succeed",
   "Meghan Smith": "",
   "Melissa Duff": "",
   "Sophia Faria": "Together We’ll Build Deep & Wide Webs ",
