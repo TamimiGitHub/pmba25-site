@@ -32,18 +32,18 @@ const images = {
   "Kiana Pomponio": "https://media.licdn.com/dms/image/C4E03AQE1XTtXfYAmgg/profile-displayphoto-shrink_800_800/0/1591732331211?e=1680739200&v=beta&t=bVeXpptDV2NI_sWxdijkoZbGVOGaalDbnWRH9BlwEKA"
 }
 const tagLines = {
-  "Angus Fudge": "tagline goes here",
-  "Meghan Smith": "tagline goes here",
-  "Melissa Duff": "tagline goes here",
-  "Sophia Faria": "tagline goes here",
-  "Rohan Chary": "tagline goes here",
-  "Éire Gorman": "tagline goes here",
+  "Angus Fudge": "",
+  "Meghan Smith": "",
+  "Melissa Duff": "",
+  "Sophia Faria": "",
+  "Rohan Chary": "",
+  "Éire Gorman": "",
   "Yvonne Htun": "Here for a great time, not a long time",
   "Felix Cheu": "I will be a great 'asset' to the team",
   "Zoey Wu": "Every Dollar Well Spent",
   "Tamimi Ahmad": "Together We'll Flourish",
   "Fortune Umeugo": "Your Agenda. My Agenda",
-  "Kiana Pomponio": "tagline goes here"
+  "Kiana Pomponio": ""
 }
 
 const theme = createTheme();
