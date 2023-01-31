@@ -9,7 +9,7 @@ import Container from '@mui/material/Container';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 import Zoey from '../images/zoey.jpg';
 
-const positions = ["VP Internal", "VP External", "VP Events", "VP Finance", "President"]
+const positions = ["VP External", "VP Events", "VP Internal", "VP Finance", "President"]
 const candidates = {
   "VP Internal": ["Angus Fudge", "Meghan Smith", "Melissa Duff"],
   "VP External": ["Sophia Faria", "Rohan Chary"],
