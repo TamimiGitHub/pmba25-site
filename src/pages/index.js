@@ -11,9 +11,9 @@ export default function Index() {
       <Helmet>
         <title>PMBA25</title>
         <meta name="description" content="PMBA 2025 Elections Campaign"/>
-        <meta property="og:title" content="Updated!!"/>
+        <meta property="og:title" content="PMBA 2025 Elections Campaign"/>
         <meta property="og:title" content="PMBA25 Elections"/>
-        <meta property="og:description" content="PMBA 2025 Elections Campaign"/>
+        <meta property="og:description" content="Campaign website for the PMBA25 candidates"/>
         <meta property="og:image" itemProp="image" content="https://d30mzt1bxg5llt.cloudfront.net/public/uploads/images/_signatoryLogo/UBC-Sauder-Full-Colour-JPEG-web.jpg"/>
         <link rel="icon" type="image/png" href="https://cdn-icons-png.flaticon.com/512/2097/2097443.png" sizes="16x16" />
       </Helmet>
