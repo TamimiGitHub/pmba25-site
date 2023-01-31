@@ -40,8 +40,8 @@ const tagLines = {
   "Rohan Chary": "Connecting People for the Greater Good!",
   "Éire Gorman": "Work hard, be yourself, and have fun along the way!",
   "Yvonne Htun": "Here for a great time, not a long time",
-  "Felix Cheu": "I will be a great 'asset' to the team",
   "Zoey Wu": "Every Dollar Well Spent",
+  "Felix Cheu": "I will be a great 'asset' to the team",
   "Tamimi Ahmad": "Together We'll Flourish",
   "Fortune Umeugo": "Your Agenda. My Agenda",
   "Kiana Pomponio": "Partner, Motivate, Believe & Achieve (PMBA) together."
