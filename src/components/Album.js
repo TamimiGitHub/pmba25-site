@@ -41,7 +41,7 @@ const tagLines = {
   "Sophia Faria": "tagline goes here",
   "Rohan Chary": "tagline goes here",
   "Éire Gorman": "tagline goes here",
-  "Yvonne Htun": "tagline goes here",
+  "Yvonne Htun": "Here for a great time, not a long time",
   "Felix Cheu": "I will be a great 'asset' to the team",
   "Zoey Wu": "Every Dollar Well Spent",
   "Tamimi Ahmad": "Together We'll Flourish",
