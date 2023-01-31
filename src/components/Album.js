@@ -33,18 +33,18 @@ const images = {
 }
 
 const tagLines = {
-  "Angus Fudge": "yolo",
-  "Meghan Smith": "yolo",
-  "Melissa Duff": "yolo",
-  "Sophia Faria": "yolo",
-  "Rohan Chary": "yolo",
-  "Éire Gorman": "yolo",
-  "Yvonne Htun": "yolo",
+  "Angus Fudge": "tagline goes here",
+  "Meghan Smith": "tagline goes here",
+  "Melissa Duff": "tagline goes here",
+  "Sophia Faria": "tagline goes here",
+  "Rohan Chary": "tagline goes here",
+  "Éire Gorman": "tagline goes here",
+  "Yvonne Htun": "tagline goes here",
   "Felix Cheu": "I will be a great 'asset' to the team",
   "Zoey Wu": "Every Dollar Well Spent",
   "Tamimi Ahmad": "Together We'll Flourish",
   "Fortune Umeugo": "Your Agenda. My Agenda",
-  "Kiana Pomponio": "yolo"
+  "Kiana Pomponio": "tagline goes here"
 }
 
 const theme = createTheme();
