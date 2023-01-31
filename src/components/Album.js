@@ -43,7 +43,7 @@ const tagLines = {
   "Zoey Wu": "Every Dollar Well Spent",
   "Tamimi Ahmad": "Together We'll Flourish",
   "Fortune Umeugo": "Your Agenda. My Agenda",
-  "Kiana Pomponio": ""
+  "Kiana Pomponio": "Partner, Motivate, Believe & Achieve (PMBA) together."
 }
 
 const theme = createTheme();
