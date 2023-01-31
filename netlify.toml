@@ -1,5 +1,5 @@
 [build]
-  command = "npm run develop"
+  command = "npm run build"
   publish = "public"
 
   ## more info on configuring this file: https://www.netlify.com/docs/netlify-toml-reference/
