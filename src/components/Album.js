@@ -37,7 +37,7 @@ const tagLines = {
   "Melissa Duff": "",
   "Sophia Faria": "Together We’ll Build Deep & Wide Webs ",
   "Rohan Chary": "Connecting People for the Greater Good!",
-  "Éire Gorman": "",
+  "Éire Gorman": "Work hard, be yourself, and have fun along the way!",
   "Yvonne Htun": "Here for a great time, not a long time",
   "Felix Cheu": "I will be a great 'asset' to the team",
   "Zoey Wu": "Every Dollar Well Spent",
