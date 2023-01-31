@@ -9,8 +9,6 @@ import Container from '@mui/material/Container';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 import Zoey from '../images/zoey.jpg';
 
-
-
 const positions = ["VP Internal", "VP External", "VP Events", "VP Finance", "President"]
 const candidates = {
   "VP Internal": ["Angus Fudge", "Meghan Smith", "Melissa Duff"],
@@ -33,7 +31,6 @@ const images = {
   "Fortune Umeugo": "https://media.licdn.com/dms/image/D5603AQHkyV-9ECA2QA/profile-displayphoto-shrink_800_800/0/1674153722392?e=1680739200&v=beta&t=lTrlMpPpVYIaf8fzejeckdau-QSqEhsvo2GnuJPUuIQ",
   "Kiana Pomponio": "https://media.licdn.com/dms/image/C4E03AQE1XTtXfYAmgg/profile-displayphoto-shrink_800_800/0/1591732331211?e=1680739200&v=beta&t=bVeXpptDV2NI_sWxdijkoZbGVOGaalDbnWRH9BlwEKA"
 }
-
 const tagLines = {
   "Angus Fudge": "tagline goes here",
   "Meghan Smith": "tagline goes here",
@@ -62,6 +59,7 @@ export default function Album() {
               bgcolor: 'background.paper',
               pt: 2,
               pb: 0,
+              my: 8,
             }}
             >
               <Container maxWidth="l">
@@ -76,34 +74,34 @@ export default function Album() {
               </Container>
             </Box>
             <Container sx={{ py: 8 }} maxWidth="md">
-          <Grid container spacing={2}>
-            {candidates[position].map((candidate) => (
-              <Grid item key={candidate} xs={12} sm={6} md={4}>
-                <Card
-                  sx={{ height: '100%', display: 'flex', flexDirection: 'column' }}
-                >
-                  <CardMedia
-                    component="img"
-                    sx={{
-                      // 16:9
-                      pt: '56.25%',
-                    }}
-                    image = {images[candidate]}
-                    alt={candidate}
-                  />
-                  <CardContent sx={{ flexGrow: 1 }}>
-                    <Typography gutterBottom variant="h5" component="h2">
-                      {candidate}
-                    </Typography>
-                    <Typography>
-                      "{tagLines[candidate]}"
-                    </Typography>
-                  </CardContent>
-                </Card>
+              <Grid container spacing={2}>
+                {candidates[position].map((candidate) => (
+                  <Grid item key={candidate} xs={12} sm={6} md={4}>
+                    <Card
+                      sx={{ height: '100%', display: 'flex', flexDirection: 'column' }}
+                    >
+                      <CardMedia
+                        component="img"
+                        sx={{
+                          // 16:9
+                          pt: '56.25%',
+                        }}
+                        image = {images[candidate]}
+                        alt={candidate}
+                      />
+                      <CardContent sx={{ flexGrow: 1 }}>
+                        <Typography gutterBottom variant="h5" component="h2">
+                          {candidate}
+                        </Typography>
+                        <Typography>
+                          "{tagLines[candidate]}"
+                        </Typography>
+                      </CardContent>
+                    </Card>
+                  </Grid>
+                ))}
               </Grid>
-            ))}
-          </Grid>
-        </Container>
+            </Container>
           </div>
         ))}
       </main>

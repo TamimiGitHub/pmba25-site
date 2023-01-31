@@ -6,11 +6,18 @@ import Album from '../components/Album';
 
 export default function Index() {
   return (
-    <Container maxWidth="sm">
-      <Box sx={{ my: 8 }}>
-        <Typography variant="h4" component="h1" gutterBottom>
-          PMBA 2025 Elections Campaign
-        </Typography>
+    <Container maxWidth="lg">
+      <Box sx={{ 
+        pt: 2,
+        pr: 4,
+        pb: 0,
+        my: 8,
+        }}>
+          <Container maxWidth="sm">
+            <Typography variant="h4" component="h1" gutterBottom>
+              PMBA 2025 Elections Campaign
+            </Typography>
+          </Container>
         <Album/>
       </Box>
     </Container>
