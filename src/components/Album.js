@@ -35,7 +35,7 @@ const tagLines = {
   "Angus Fudge": "",
   "Meghan Smith": "",
   "Melissa Duff": "",
-  "Sophia Faria": "",
+  "Sophia Faria": "Together We’ll Build Deep & Wide Webs ",
   "Rohan Chary": "",
   "Éire Gorman": "",
   "Yvonne Htun": "Here for a great time, not a long time",
