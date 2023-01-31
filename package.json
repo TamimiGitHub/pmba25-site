@@ -1,6 +1,6 @@
 {
-  "name": "gatsby",
-  "version": "5.0.0",
+  "name": "pmba-site",
+  "version": "1.0.0",
   "private": true,
   "browserslist": [
     ">0.25%",
@@ -12,8 +12,8 @@
     "@emotion/styled": "^11.10.5",
     "@mui/icons-material": "^5.11.0",
     "@mui/material": "^5.11.6",
-    "gatsby": "^4",
-    "gatsby-plugin-react-helmet": "latest",
+    "gatsby": "^4.24",
+    "gatsby-plugin-react-helmet": "^5",
     "react": "latest",
     "react-dom": "latest",
     "react-helmet": "latest"
