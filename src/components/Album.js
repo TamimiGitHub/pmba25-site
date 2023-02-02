@@ -12,7 +12,7 @@ import Angus from '../images/angus.jpg';
 
 const positions = ["VP External", "VP Events", "VP Internal", "VP Finance", "President"]
 const candidates = {
-  "VP Internal": ["Angus Fudge", "Meghan Smith", "Melissa Duff"],
+  "VP Internal": ["Angus Fudge", "Meghan Smith"],
   "VP External": ["Sophia Faria", "Rohan Chary"],
   "VP Events": ["Éire Gorman", "Yvonne Htun"],
   "VP Finance": ["Felix Cheu", "Zoey Wu"],
